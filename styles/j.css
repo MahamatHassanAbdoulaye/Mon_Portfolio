@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;500;600;700&display=swap');
+
+
+* {font-family: 'Readex Pro';}
+
+
+a {
+    text-decoration: none;
+    color: white !important;
+    font-weight: 500;
+}
+
+a:hover {
+    color: rgb(245, 149, 65) !important;
+    text-decoration: none;
+}
+
+ul {list-style-type: none;}
+
+hr {
+    margin-top: 0px;
+    margin-bottom: 5%;
+}
+
+/* Agrandir la section des onglets */
+.stTabs [data-baseweb="tab"] {
+    font-size: 1.2rem; /* Agrandir la taille du texte des onglets */
+    padding: 1rem 2rem; /* Ajouter du padding autour des onglets */
+}
+
+.stTabs {
+    margin-top: 20px; /* Ajuster la marge supérieure des onglets */
+    margin-bottom: 20px; /* Ajuster la marge inférieure des onglets */
+}
+
+/* Ajuster la largeur des colonnes à l'intérieur des onglets */
+.stColumn {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+header {visibility: hidden;}
+/* Ajout du pied de la page */
+.footer {
+    width: 100%;      /* Prend toute la largeur de la page */
+    background-color: #e09200;  /* Couleur de fond */
+    color: black;     /* Couleur du texte */
+    text-align: center;  /* Centre le texte */
+    padding: 10px;    /* Ajoute un peu de marge intérieure */
+    font-size: 12px;  /* Taille du texte */
+    margin-top: 50px; /* Ajoute un espace au-dessus du footer */
+}
+
+
